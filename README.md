@@ -1,20 +1,12 @@
 ## Implementation.
 
 ### Current implementation
-
 This repo's contracts are separated in 3 parts:
-
 - [Interface](https://github.com/Designercoin/ERC223-token-standard/blob/master/token/ERC223/ERC223_interface.sol): The standard itself. The minimal common API ERC223 tokens and receivers to interact with each other.
 - [Proposed implementations](https://github.com/Designercoin/ERC223-token-standard/blob/master/token/ERC223/ERC223_token.sol): A first approach as to how this could be implemented.
 - [Receiver interface](https://github.com/Designercoin/ERC223-token-standard/blob/master/token/ERC223/ERC223_receiving_contract.sol): A dummy receiver that is intended to accept ERC223 tokens.
 
-### Minimal viable implementation of the token, ready for use.
-
-https://github.com/Designercoin/ERC223Token
-
 ## ERC223 token standard.
-
-
 ERC223 is a superset of the [ERC20] token standard. It is a step forward towards economic abstraction at the application/contract level allowing the use of tokens as first class value transfer assets in smart contract development. It is also a more safe standard as it doesn't allow token transfers to contracts that don't support token receiving and handling.
 
 [See EIP discussion]
